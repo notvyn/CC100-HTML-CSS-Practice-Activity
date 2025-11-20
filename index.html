@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>CC100: HTML & CSS</title>
+        
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/5799/5799586.png">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <!-- Landing Page, Head Content -->
+        <header>
+            <p class="course blink-smooth" id="course-num">CC 100</p>
+            <p class="course blink-smooth" id="course-name">Introduction to Computing</p>
+        </header>
+
+        <!-- Headings Content -->
+        <section id="headings">
+            <h1 class="slideDown" id="h1">Heading 1</h1>
+            <h2 class="slideDown" id="h2">Heading 2</h2>
+            <h3 class="slideDown" id="h3">Heading 3</h3>
+            <h4 class="slideDown" id="h4">Heading 4</h4>
+            <h5 class="slideDown" id="h5">Heading 5</h5>
+            <h6 class="slideDown" id="h6">Heading 6</h6>
+        </section>
+
+        <!-- Greetings and Main Content -->
+        <section class="pulse" id="welcome">
+            <p id="p1">Welcome to CC 100 - Introduction to Computing!</p>
+            <p id="p2">This page demonstrates headings, a sample table, lists, a form, and a favorite fruits gallery with images.</p>
+        </section>
+
+        <br>
+
+        <!-- User Table -->
+        <section id="table">
+            <table>
+                <h2>Registration Table</h2>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Age</th>
+                    <th>Gender</th>
+                    <th>Hobby</th>
+                </tr>
+                <tr>
+                    <td>Mariefel Basibas</td>
+                    <td>mariefel@example.com</td>
+                    <td>22</td>
+                    <td>Female</td>
+                    <td>Traveling</td>
+                </tr>
+                <tr>
+                    <td>Arjonel Mendoza</td>
+                    <td>mendoza@example.com</td>
+                    <td>25</td>
+                    <td>Male</td>
+                    <td>Reading</td>
+                </tr>
+                <tr>
+                    <td>Adrian Balmes</td>
+                    <td>balmess@example.com</td>
+                    <td>21</td>
+                    <td>Male</td>
+                    <td>Playing</td>
+                </tr>
+                <tr>
+                    <td>Jhomari Ramirez</td>
+                    <td>ramirez@example.com</td>
+                    <td>20</td>
+                    <td>Male</td>
+                    <td>Coding</td>
+                </tr>
+                <tr>
+                    <td>Gerald Dano</td>
+                    <td>dano@example.com</td>
+                    <td>21</td>
+                    <td>Male</td>
+                    <td>Music</td>
+                </tr>
+            </table>
+        </section>
+
+        <br>
+
+        <!-- User Forms -->
+        <section id="form">
+            <form class="">
+                <h2>Student Registration Form</h2>
+                <label for="Name">Name:</label>
+                <input type="text" id="Name" placeholder="Enter your name">
+                
+                <br>
+                <label for="Email">Email:</label>
+                <input type="email" id="Email" placeholder="Enter your email">
+
+                <br>
+                <label for="Age">Age:</label>
+                <input type="number" id="Age" placeholder="Enter your age" min="0">
+
+                <br>
+                <label>Gender:</label>
+                
+                <br>
+                <div class="radio">
+                    <input type="radio" name="Gender" value="Female" id="Female">
+                    <label for="Female">Female</label> 
+                    <input type="radio" name="Gender" value="Male" id="Male">
+                    <label for="Male">Male</label>
+                </div>
+
+                <br>
+                <label>Hobbies:</label>
+
+                <br>
+                <div class="checkbox">
+                    <input type="checkbox" value="Reading" id="Reading">
+                    <label for="Reading">Reading</label>
+                    <input type="checkbox" value="Traveling" id="Traveling">
+                    <label for="Traveling">Traveling</label>
+                    <input type="checkbox" value="Coding" id="Coding">
+                    <label for="Coding">Coding</label>
+                </div>
+                
+                <br>
+                <input type="submit">
+            </form>
+        </section>
+
+        <!-- Images -->
+        <h2 id="img-head">My Favorite Fruits</h2>
+        <section id="images">
+            
+            <div class="mango">
+                <img src="https://steemitimages.com/DQmamZaN6DJF4ru4N21f8m2WiDvYikNoYKGxaj6paw1VgsB/CAM00729.jpg" alt="Picture of a Mango with Googly Eyes">
+                <label>Mango</label>
+            </div>
+            <div class="banana">
+                <img src="https://miro.medium.com/v2/resize:fit:1358/format:webp/1*xRd8HDq0nOSEcnFzHD8rpg.png" alt="Picture of a Banana with Googly Eyes">
+                <label>Banana</label>
+            </div>
+            <div class="strawberry">
+                <img src="https://img.freepik.com/premium-photo/red-juicy-strawberries-white-wooden-background-with-funny-eyes_391020-336.jpg" alt="Picture of Strawberries with Googly Eyes">
+                <label>Strawberry</label>
+            </div>
+        </section>
+
+        <!-- Lists -->
+        <section id="list">
+            <h2>Programming Languages I Want to Learn</h2>
+            <div class="list-container">
+                <ol>
+                    <li>Python</li>
+                    <li>JavaScript</li>
+                    <li>Java</li>
+                </ol>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2025 CC 100 - Introduction to Computing | Created by John Calvin Samson</p>
+        </footer>
+    </body>
+</html>
